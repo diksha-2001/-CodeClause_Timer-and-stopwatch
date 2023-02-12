@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch and Timer</title>
+    <link rel="icon" type="image/x-icon" href="./stopwatch.png">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <style>
+        body {
+          background-image: url(hour.jpeg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+      </style>
+    
+    <div class="container">
+        <h1 class="h1">Timer and Stopwatch</h1>
+        
+        <div>
+            <span id="hour" class="time">00</span>
+            <span class="text">Hr</span>
+            <span id="minute" class="time">00</span>
+            <span class="text">Min</span>
+            <span id="second" class="time">00</span>
+            <span class="text">Sec</span>
+            <span id="msecond" class="time">00</span>
+            <span class="text">Msec</span>
+        </div>
+
+        <div class="buttons">
+            <button class="btn" id="start">Start</button>
+            <button class="btn" id="stop">Stop</button>
+            <button class="btn" id="reset">Reset</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
